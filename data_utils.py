@@ -8,10 +8,6 @@ from __future__ import (
 import torch
 import numpy as np
 
-"""
-    一些对数据进行处理的函数
-"""
-
 def angle_axis(angle, axis):
     # type: (float, np.ndarray) -> float
     r"""Returns a 4x4 rotation matrix that performs a rotation around axis by angle
