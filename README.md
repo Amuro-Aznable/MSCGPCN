@@ -24,3 +24,10 @@ show_bank.py:
 utils.py:
 
   The functions of data processing and training.
+
+visual_completion_results.mp4:
+  This is a video showing the results corresponding to Section 3.2 of the paper, "The completion results of the plant point cloud validation set".
+  It is designed to facilitate the observation of the completion results from a three-dimensional perspective.
+  In the video, the brown dots represent the incomplete point cloud input to the network, 
+      the blue dots represent the point cloud of the actual missing area, 
+      and the red dots represent the point cloud of the missing area predicted to be completed by the network.
